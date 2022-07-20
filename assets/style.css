@@ -1,0 +1,19 @@
+.container{
+    background-color: blue;
+    text-align: center;
+    padding: 30px;  
+}
+
+
+.timer{
+    float: right;
+    font-weight: bold;
+    
+}
+
+.intro-page{
+    justify-content: center;
+    border-style: solid;
+    font-weight: bold;'
+    float: right;
+}
