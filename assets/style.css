@@ -8,12 +8,31 @@
 .timer{
     float: right;
     font-weight: bold;
-    
+    border: solid;
+    background-color: beige;
 }
 
-.intro-page{
-    justify-content: center;
-    border-style: solid;
-    font-weight: bold;'
-    float: right;
+.intro{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.start-button{
+  font-weight: bold;
+  justify-content: center;
+}
+#start-button:hover{
+    background-color: blueviolet;
 }
