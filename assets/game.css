@@ -12,7 +12,7 @@ body{
 }
 .choice-container:hover{
     cursor: pointer;
-    background-color: rgb(97, 7, 182);
+
     transform: scale(1.1);
     transition: transform 150ms;
       -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
