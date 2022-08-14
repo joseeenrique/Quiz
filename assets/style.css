@@ -1,38 +1,70 @@
+:root{
+    background-color: rgb(29, 26, 26);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-size: 62.5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-size: 5.4rem;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+h2{
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+
+}
 .container{
-    background-color: blue;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:  80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: 60px;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+
+}
+.text-center{
     text-align: center;
-    padding: 30px;  
 }
-
-
-.timer{
-    float: right;
-    font-weight: bold;
-    border: solid;
-    background-color: beige;
+.hidden{
+    display: none;
 }
-
-.intro{
-
+.btn{
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background: blue;
+    border-radius: 8px;
+  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.start-button{
-  font-weight: bold;
-  justify-content: center;
-}
-#start-button:hover{
-    background-color: blueviolet;
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(97, 7, 182);
+    transform: scale(1.1);
+    transition: transform 150ms;
+      -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
