@@ -30,7 +30,7 @@ let questions = [
     {
         question: "Commonly used data types do not include",
         choice1: "strings",
-        choice2: "boleans",
+        choice2: "booleans",
         choice3: "alerts",
         choice4: "numbers", 
         answer: 3,
@@ -58,7 +58,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS){
         localStorage.setItem("mostRecentScore", score)
 
-        return window.location.assign("/end.html")
+        return window.location.assign("./end.html")
     }
 
     questionCounter++
